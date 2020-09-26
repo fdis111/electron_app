@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add electron electron-builder --dev
+
+PATH: 
+  C:\Program Files (x86)\sqlLite3;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Symfony;C:\Program Files\Git\cmd;C:\wamp64\bin\php\php7.4.9;C:\ProgramData\ComposerSetup\bin;C:\wamp64\bin\mysql\mysql8.0.21\bin;C:\Program Files\iTunes;C:\Program Files\MongoDB\Server\4.4\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\abTools;C:\Program Files (x86)\redis;C:\Users\Administrateur\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Administrateur\AppData\Local\Programs\Python\Python38\;C:\Windows\System32;C:\Users\Administrateur\AppData\Local\Programs\Microsoft VS Code\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.18.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/electron: socket hang up
+      at connResetException (internal/errors.js:610:14)
+      at TLSSocket.socketOnEnd (_http_client.js:453:23)
+      at TLSSocket.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1220:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "auto_updates",
+    "version": "1.0.0",
+    "description": "test",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
